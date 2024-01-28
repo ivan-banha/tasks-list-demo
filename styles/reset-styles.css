@@ -1,0 +1,18 @@
+body {
+  padding: unset;
+  margin: unset;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: unset;
+  margin: unset;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style-type: none;
+}

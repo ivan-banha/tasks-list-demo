@@ -1,0 +1,7 @@
+#placeholders li {
+  min-height: 48px;
+}
+
+#placeholders li:last-child {
+  border-bottom: unset;
+}

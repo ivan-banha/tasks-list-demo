@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Task List</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <div class="app-bar">
+        <h1>Simple Task List</h1>
+      </div>
+
+      <div class="sheet">
+        <div class="sheet-decor"></div>
+
+        <ul id="tasks-list">
+          <!-- <li class="task sheet-line">
+                    <span class="task-icon">
+                        <input type="checkbox" name="add-task" placeholder="Add task" />
+                    </span>
+
+                    <span class="p-1-2">My first todo task</span>
+                    <div class="task-actions">
+                        <button>
+                            <img src="assets/delete.svg" alt="Delete task" />
+                        </button>
+                    </div>
+                </li> -->
+        </ul>
+
+        <div class="create-task sheet-line">
+          <span class="task-icon">
+            <img src="assets/add.svg" alt="Add task" />
+          </span>
+          <input
+            id="add-task"
+            class="p-1-2"
+            type="text"
+            name="add-task"
+            placeholder="Add task"
+            maxlength="50"
+          />
+        </div>
+
+        <ul id="placeholders">
+          <li class="sheet-line"></li>
+          <li class="sheet-line"></li>
+          <li class="sheet-line"></li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="src/index.js" type="module"></script>
+  </body>
+</html>

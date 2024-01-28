@@ -1,0 +1,60 @@
+/* Created task styles */
+
+.task {
+  position: relative;
+}
+
+.task-icon {
+  margin: 12px;
+  width: 24px;
+  height: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-icon input {
+  width: 18px;
+  height: 18px;
+}
+
+.task:hover .task-actions,
+.task:active .task-actions {
+  display: block;
+}
+
+.task-actions {
+  display: none;
+  position: absolute;
+  right: 12;
+}
+
+.task-actions button {
+  border: unset;
+  background-color: unset;
+}
+
+/* Create new task styles */
+
+.create-task {
+}
+
+.create-task input {
+  width: 100%;
+  min-height: 32px;
+  margin-right: 12px;
+  border: unset;
+
+  color: var(--secondary-text-color);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.create-task:hover,
+.create-task:active {
+  outline: 2px solid var(--divider-color);
+}

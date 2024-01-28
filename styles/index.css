@@ -1,0 +1,55 @@
+@import url("reset-styles.css");
+@import url("utils.css");
+@import url("app-bar.css");
+@import url("task.css");
+@import url("placeholders.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* APP COLORS */
+
+:root {
+  font-family: "Inter", sans-serif;
+
+  --divider-color: #d0e5f9;
+
+  --white: #fff;
+  --black: #000;
+
+  --primary-text-color: #000;
+  --secondary-text-color: #666666;
+
+  --disabled-element-color: #999999;
+}
+
+body {
+  background: linear-gradient(192deg, #5e54f6 0%, #f6a5cb 54.14%, #c37151 100%);
+
+  width: 100%;
+  min-width: 320px;
+}
+
+/* STYLES */
+
+.sheet {
+  margin: 16px;
+
+  border-radius: 16px;
+  background: var(--white);
+
+  overflow-y: hidden;
+}
+
+/* Temporary placeholder for decoration */
+.sheet-decor {
+  margin: 0 12px 10px 12px;
+  height: 44px;
+
+  background-color: grey;
+}
+
+.sheet-line {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--divider-color);
+}
